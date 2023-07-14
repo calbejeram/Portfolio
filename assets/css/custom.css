@@ -104,6 +104,12 @@ header {
     width: 100%;
     z-index: 999;
     transition: 0.3s;
+    
+}
+
+.navbar,
+#contact {
+  box-shadow: 0px 0px 10px black;
 }
 
 .navbar .navbar-brand span {
