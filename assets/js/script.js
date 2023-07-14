@@ -3,6 +3,7 @@ const toggleButton = document.querySelector("#toggleButton");
 const navbar = document.querySelector(".navbar")
 const navItems = document.querySelectorAll(".navbar ul li")
 const preLoader = document.querySelector(".preloader");
+const largeNavItems = document.querySelectorAll(".large-nav")
 
 const lightBg = document.querySelectorAll("#hero, #services, #reviews, #projects, #about, #collaborate");
 
@@ -59,7 +60,7 @@ paragraphs.forEach((subTXT) => {
 document.addEventListener("scroll", () => {
     let scrollPosition = window.scrollY;
     if (scrollPosition > 150) {
-        navbar.style.backgroundColor = "white";
+        navbar.style.backgroundColor = "#212529";
     } else {
         navbar.style.background = "transparent";
     }
