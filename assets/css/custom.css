@@ -91,7 +91,7 @@ header {
     transition: 0.3s;
 }
 
-.navbar .large-nav li a {
+/* .navbar .large-nav li a {
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(237,3,32,0.87) 20.8%, rgba(242,121,1,0.84) 74.4% );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -100,7 +100,7 @@ header {
   font-weight: bold;
   letter-spacing: 5px;
   border-left: 3px solid black;
-}
+} */
 
 .navbar .navbar-brand span {
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(237,3,32,0.87) 20.8%, rgba(242,121,1,0.84) 74.4% );
@@ -128,7 +128,7 @@ header {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background: url(/assets/images/integration-images-7.png) no-repeat center center/ cover;
+    background: url(/./assets/images/hero-bg.png) no-repeat center center/ cover;
     background-color: #212529;
 }
 
@@ -210,7 +210,7 @@ header {
 
 /* Collaborate */
 #collaborate .collab {
-  background: url(/assets/images/collaborate-bg.svg) no-repeat center center/ cover;
+  background: url(/./assets/images/collaborate-bg.svg) no-repeat center center/ cover;
 }
 
 /* Footer Section */
