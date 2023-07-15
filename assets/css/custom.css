@@ -35,7 +35,8 @@ a {
 #projects,
 #about,
 #collaborate,
-.offcanvas {
+.offcanvas,
+.preloader {
   background-color: #212529;
 }
 
@@ -527,7 +528,6 @@ input:checked + .slider:before {
   justify-content: center;
   position: fixed;
   z-index: 99999;
-  background-color: #ffffff;
 }
 
 /* Loader */
