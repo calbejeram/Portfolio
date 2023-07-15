@@ -92,6 +92,42 @@ a {
   color: #828E9D;
 }
 
+/* Icons */
+
+.fa-brands {
+  font-size: 2.5rem;
+}
+.fa-html5 {
+  color: #E44D25;
+}
+
+.fa-css3-alt {
+  color: #1B73BA;
+}
+
+.fa-square-js {
+  color: #F0DC4E;
+}
+
+.fa-bootstrap {
+  color: #6F10F4;
+}
+
+.fa-react {
+  color: #149ECA;;
+}
+
+.fa-git-alt {
+  color: #F44D27;
+}
+
+.fa-php {
+  color: #4F5B93;
+}
+
+.fa-laravel {
+  color: #FF291A;;
+}
 
 /* Navbar */
 header {
@@ -142,7 +178,7 @@ header {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background: url(/././././././assets/images/hero-bg.png) no-repeat center center/ cover;
+    background: url(https://www.useblackbox.io/style/images/integration-images-7.png) no-repeat center center/ cover;
     background-color: #212529;
 }
 
@@ -181,6 +217,10 @@ header {
   text-shadow: 0px 0px 10px rgb(0, 169, 0);
 }
 
+#projects .card-body .projects-tech-stacks i {
+  margin: 0 5px;
+}
+
 /* About Section */
 #about {
   overflow: hidden;
@@ -190,6 +230,9 @@ header {
   /* background: url(/assets/images/banner-background.e3c9455.png) no-repeat center center/ cover; */
 }
 
+#about .kodego-link:hover {
+  text-decoration: underline;
+}
 
 #about .img-container {
   height: 100vh;
@@ -208,6 +251,17 @@ header {
 
 #about .tech-stacks-container img {
   margin: 10px;
+  transition: 0.3s;
+}
+
+#about .tech-stacks-container i {
+  margin: 10px;
+  transition: 0.3s;
+}
+
+#about .tech-stacks-container i:hover {
+  transform: scale(1.2);
+  cursor: pointer;
   transition: 0.3s;
 }
 

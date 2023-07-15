@@ -6,7 +6,7 @@ const preLoader = document.querySelector(".preloader");
 const largeNavItems = document.querySelectorAll(".large-nav");
 const lightBg = document.querySelectorAll(".navbar, #hero, #services, #reviews, #projects, #about, #collaborate, .offcanvas");
 const semiLightBg = document.querySelectorAll("hero, .card-body, #contact, #about .about-box");
-const blackText = document.querySelectorAll(".toggleIcon, .section-title, .navbar .large-nav li a, .sub-nav li a, #services h1, #services h2, #projects h1, #projects .project-card .card-title, .tech-stack-text, .about-project-title, .number, #contact a h1, .quick-links a, .social-icons a, .btn-close");
+const blackText = document.querySelectorAll(".toggleIcon, .section-title, .navbar .large-nav li a, .sub-nav li a, #services h1, #services h2, #projects h1, #projects .project-card .card-title, .tech-stack-text, .about-project-title, .collab-title, .number, #contact a h1, .quick-links a, .social-icons a, .btn-close");
 const paragraphs = document.querySelectorAll("#services p, #projects .project-card .card-text, .about-text, #contact p");
 
 
