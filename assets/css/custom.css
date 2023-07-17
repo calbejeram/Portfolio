@@ -61,18 +61,19 @@ a {
 .about-project-title,
 .tech-stack-text,
 .number,
-.btnCls {
+.btnCls,
+.navbar .large-nav li a i,
+.p-hover {
   color: white;
   font-weight: bold;
 }
 
-.navbar .large-nav li a,
+
 .navbar .sub-nav li a {
   color: white;
   transition: 0.4s;
 }
 
-.navbar .large-nav li a:hover,
 .navbar .sub-nav li a:hover {
   transform: scale(1.2);
   transition: 0.4s;
@@ -136,7 +137,7 @@ header {
 }
 
 .navbar {
-    height: 10vh;
+    height: 9vh;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -159,7 +160,35 @@ header {
 }
 
 .navbar .large-nav li a {
-  color: white;
+  position: relative;
+}
+
+.navbar .large-nav li a i {
+  font-size: 1.7rem;
+  padding: 0px 10px;
+  margin: 0 5px;
+}
+.navbar .large-nav li a p {
+  position: absolute;
+  top: 65px;
+  right: 0px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar .large-nav li a:hover p {
+  display: block;
+}
+
+.navbar .large-nav li a.active {
+  border-bottom: 5px solid #ff3c00;
+}
+
+.navbar .large-nav li a.active i {
+  color: #ff3c00;
 }
 
 .navbar .navbar-brand img {
