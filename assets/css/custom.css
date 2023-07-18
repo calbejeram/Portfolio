@@ -37,13 +37,13 @@ a {
 #collaborate,
 .offcanvas,
 .preloader {
-  background-color: #212529;
+  background-color: #0D1224;
 }
 
 #hero,
 .card-body,
 #contact {
-  background-color: #1B1F22;
+  background-color: #12172A;
 }
 
 /* TYPOGRAPHY */
@@ -212,7 +212,7 @@ header {
     justify-content: center;
     overflow: hidden;
     background: url(https://codewithmosh.com/_next/static/media/bg-grid-lighter.4c1e8196.svg) no-repeat center center/ cover;
-    background-color: #212529;
+    background-color: #12172A;
 }
 
 #hero h1 {
@@ -225,6 +225,77 @@ header {
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(237,3,32,0.87) 20.8%, rgba(242,121,1,0.84) 74.4% );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#hero .code-box {
+  background-color: #0B0F34;
+  border: 1px solid white;
+  border-radius: 10px;
+  letter-spacing: 1px;
+}
+
+#hero .code-box .fileBox i {
+  margin: 0px 3px;
+}
+
+#hero .code-box .fileBox .red {
+  color: #ED6A5E;
+}
+
+#hero .code-box .fileBox .orange {
+  color: #FF9F24;
+}
+
+#hero .code-box .fileBox .green {
+  color: #8EEAC1;
+}
+
+#hero .code-box .script-box .animate {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 5px;
+  animation: pump 0.8s infinite;
+}
+
+@keyframes pump {
+  100% {
+    opacity: 0;
+  }
+
+  0% {
+    opacity: 1;
+  }
+}
+
+/* Color spans */
+#hero .code-box .script-box .color1 {
+  color: #F926AE;
+}
+
+#hero .code-box .script-box .color2 {
+  color: #ffffff;
+}
+
+#hero .code-box .script-box .color3 {
+  color: #4e4e4e;
+  font-weight: bold;
+}
+
+#hero .code-box .script-box .color4 {
+  color: rgb(255, 213, 0);
+}
+
+#hero .code-box .script-box .color5 {
+  color: #FF9E24;
+}
+
+#hero .code-box .script-box .color6 {
+  color: #16F7B5;
+}
+
+#hero .code-box .script-box .color7 {
+  color: #ff00c3;
 }
 
 /* Service Section */
@@ -607,6 +678,13 @@ input:checked + .slider:before {
 
 /* RESPONSIVE  */
 @media only screen and (max-width: 992px) {
+  #hero {
+    height: 120vh;
+  }
+
+  #hero span {
+    font-size: 0.7rem;
+  }
   #about .img-container {
     height: fit-content;
   }
