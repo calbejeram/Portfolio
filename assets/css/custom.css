@@ -268,6 +268,19 @@ header {
   }
 }
 
+#hero .hello {
+  animation: wave 1.5s ease infinite;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(30deg);
+  }
+}
+
 /* Color spans */
 #hero .code-box .script-box .color1 {
   color: #F926AE;
@@ -682,8 +695,16 @@ input:checked + .slider:before {
     height: 120vh;
   }
 
+  #hero img {
+    width: 50px;
+  }
+
   #hero span {
     font-size: 0.7rem;
+  }
+
+  #hero h4 {
+    font-size: 1rem;
   }
   #about .img-container {
     height: fit-content;

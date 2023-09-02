@@ -83,9 +83,9 @@ home.addEventListener("click", () => {
     setActive(home);
 });
 
-services.addEventListener("click", () => {
-    setActive(services);
-});
+// services.addEventListener("click", () => {
+//     setActive(services);
+// });
 
 projects.addEventListener("click", () => {
     setActive(projects);
